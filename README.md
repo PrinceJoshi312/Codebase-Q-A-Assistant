@@ -44,7 +44,11 @@ For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_S
 
 1.  **Clone this repository**:
     ```bash
+<<<<<<< HEAD
     git clone [your-repo-url]
+=======
+    git clone https://github.com/PrinceJoshi312/Codebase-Q-A-Assistant
+>>>>>>> c8a9e56766223106e9b225e5cb67486d130f6fb4
     cd codebase-qa-assistant
     ```
 
