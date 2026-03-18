@@ -4,15 +4,14 @@ This document provides a deep-dive overview of the technologies used in this pro
 
 ---
 
-## 1. Google Gemini 2.0 (LLM)
+## 1. Google Gemini 2.5 Flash (LLM)
 **What it is:** The "brain" of our application. It is a large language model (LLM) that can understand and generate human-like text and code.
-- **Gemini 2.0 Flash:** Used for fast, high-volume tasks such as summarization and initial context filtering. Its low latency makes the app feel responsive.
-- **Gemini 2.0 Pro (Experimental):** Used for the final generation step where deep code logic and cross-file reasoning are required. It handles the "thinking" part of the agent's work.
-**Study Source:** [Google AI Studio Docs](https://ai.google.dev/gemini-api/docs)
+- **Gemini 2.5 Flash:** Used for fast, high-volume tasks such as summarization and initial context filtering. Its low latency makes the app feel responsive while maintaining high reasoning capabilities.
+**Study Source:** [Google Gemini Documentation](https://ai.google.dev/docs)
 
 ## 2. LangChain (Orchestration Framework)
 **What it is:** The "nervous system" of our application. It orchestrates the flow of data between the user, the LLM, and the various tools.
-- **Tool-Calling Agent:** We use the `create_tool_calling_agent` pattern, which allows Gemini to autonomously decide when to search the codebase based on the user's question.
+- **Tool-Calling Agent:** We use the `create_tool_calling_agent` pattern, which allows the agent to autonomously decide when to search the codebase based on the user's question.
 - **Prompts:** LangChain's `ChatPromptTemplate` helps us enforce strict "No Hallucination" rules.
 **Study Source:** [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
 

@@ -1,6 +1,6 @@
 # Codebase Q&A Assistant (BMAD V6 Edition)
 
-An intelligent, agentic RAG system that allows you to chat with any GitHub repository using **Gemini 2.0** and **LangChain**.
+An intelligent, agentic RAG system that allows you to chat with any GitHub repository using **Google Gemini** and **LangChain**.
 
 ---
 
@@ -16,7 +16,7 @@ graph TD
     G --> H{Tool: search_codebase}
     H --> E
     E --> I[Retrieve Context]
-    I --> J[Gemini 2.0 Generator]
+    I --> J[Gemini 2.5 Flash Generator]
     J --> K[Answer + Citations]
 ```
 
@@ -24,13 +24,13 @@ graph TD
 2.  **Indexing:** The code is filtered (no binaries or `.git` files) and split into meaningful "chunks" using a code-aware text splitter.
 3.  **Embedding:** **FastEmbed** generates semantic vectors locally.
 4.  **Storage:** Vectors are stored in **ChromaDB**.
-5.  **Agentic Q&A:** The **Gemini 2.0 Agent** takes your question, uses its `search_codebase` tool to find context, and then generates an answer citing the source files.
+5.  **Agentic Q&A:** The **Gemini Agent** takes your question, uses its `search_codebase` tool to find context, and then generates an answer citing the source files.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Brain (LLM):** Google Gemini 2.0 (Flash & Pro)
+- **Brain (LLM):** Google Gemini 2.5 Flash
 - **Framework:** LangChain
 - **Embeddings:** Local BGE-Small (via FastEmbed)
 - **Database:** ChromaDB (Local)
@@ -44,11 +44,7 @@ For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_S
 
 1.  **Clone this repository**:
     ```bash
-<<<<<<< HEAD
-    git clone [your-repo-url]
-=======
     git clone https://github.com/PrinceJoshi312/Codebase-Q-A-Assistant
->>>>>>> c8a9e56766223106e9b225e5cb67486d130f6fb4
     cd codebase-qa-assistant
     ```
 
@@ -67,7 +63,7 @@ For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_S
 
 Run the main application:
 ```bash
-python src/main.py
+python run.py
 ```
 
 1.  Enter the URL of the GitHub repository you want to analyze.

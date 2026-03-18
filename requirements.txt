@@ -1,5 +1,8 @@
+fastapi
+uvicorn
+python-multipart
 langchain
-langchain-google-genai>=2.0.0
+langchain-google-genai==4.2.1
 langchain-community
 langchain-chroma
 langchain-text-splitters
