@@ -25,3 +25,7 @@ repos/
 
 _repo_temp/
 _test_repo/
+
+node_modules/
+_chroma_db/
+_test_chroma_db/
