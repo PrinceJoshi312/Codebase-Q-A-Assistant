@@ -22,3 +22,6 @@ repos/
 # IDE
 .vscode/
 .idea/
+
+_repo_temp/
+_test_repo/
