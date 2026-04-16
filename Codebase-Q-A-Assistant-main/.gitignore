@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# API keys
+.env
+
+# Vector database
+chroma/
+chroma_db/
+
+# Repo clones
+repos/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+_repo_temp/
+_test_repo/
+
+node_modules/
+_chroma_db/
+_test_chroma_db/
