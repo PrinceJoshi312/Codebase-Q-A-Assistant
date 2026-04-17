@@ -21,7 +21,7 @@ echo ==========================================
 echo ✅ SYSTEM IS STARTING UP
 echo ==========================================
 echo [!] Check the new windows for progress.
-echo [!] Once Frontend says "Local: http://localhost:5173", 
+echo [!] Once Frontend says "Local: http://localhost:3000", 
 echo [!] open your browser and go to that address.
 echo ==========================================
 pause

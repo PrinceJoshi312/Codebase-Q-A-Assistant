@@ -33,7 +33,7 @@ You can deploy this application easily using the provided `Dockerfile` or a plat
 
 1. **Environment Variables:**
    - `GOOGLE_API_KEY`: Your Gemini API key.
-   - `GEMINI_MODEL`: (Optional) Defaults to `gemini-2.5-flash`.
+   - `GEMINI_MODEL`: Defaults to `gemini-2.5-flash`.
    - `PORT`: (Optional) Defaults to `8000`.
 
 2. **Docker:**
@@ -64,7 +64,8 @@ You can deploy this application easily using the provided `Dockerfile` or a plat
 - **Framework:** LangChain
 - **Embeddings:** Local BGE-Small (via FastEmbed)
 - **Database:** ChromaDB (Local)
-- **Languages Support:** Python, JavaScript, TypeScript, Java (and more via Recursive Splitters)
+- **Frontend:** React + Vite + Tailwind CSS
+- **Backend:** FastAPI + Uvicorn
 
 For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_STACK.md).
 
@@ -75,12 +76,15 @@ For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_S
 1.  **Clone this repository**:
     ```bash
     git clone https://github.com/PrinceJoshi312/Codebase-Q-A-Assistant
-    cd codebase-qa-assistant
+    cd Codebase-Q-A-Assistant
     ```
 
 2.  **Install dependencies**:
     ```bash
     pip install -r requirements.txt
+    cd frontend
+    npm install
+    cd ..
     ```
 
 3.  **Set up environment variables**:
@@ -91,9 +95,30 @@ For a detailed breakdown of these technologies, see [**TECH_STACK.md**](./TECH_S
 
 ## 💻 Usage
 
-Run the main application:
+### Running Both Frontend & Backend (Recommended)
+The easiest way to start the entire system is to use the `run_all.py` script:
+
 ```bash
-python run.py
+python run_all.py
+```
+
+This script will:
+- Forcefully clear port 8000 and 3000 if they are occupied.
+- Launch the **Code Intelligence Backend** (Port 8000).
+- Launch the **Neural Interface Frontend** (Port 3000).
+- Automatically open your default web browser to the application.
+
+### Running Separately
+
+**Backend:**
+```bash
+python start_backend.py
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm run dev
 ```
 
 1.  Enter the URL of the GitHub repository you want to analyze.
@@ -108,6 +133,7 @@ python run.py
   - `ingestion/`: Repository cloning and filtering.
   - `indexing/`: Semantic vector store management.
   - `agent/`: Gemini agent logic and RAG tools.
+- `frontend/`: React frontend application.
 - `_bmad/`: BMAD framework configuration and manifests.
 - `_bmad-output/`: Strategic project artifacts (PRDs, Architecture, Reports).
 - `TECH_STACK.md`: Educational guide on the project's technology.
@@ -120,3 +146,4 @@ python run.py
 - **No Hallucination Mandate:** The agent is instructed to only answer based on the provided code context.
 - **Local-First Indexing:** Your embeddings are generated locally, reducing costs and keeping your data private.
 - **Agentic Workflow:** The AI can autonomously decide how to search the code to find the best answer.
+- **Execution Flow Visualization:** Ask "How does this code run?" to see a step-by-step logic flow.

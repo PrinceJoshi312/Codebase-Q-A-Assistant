@@ -16,7 +16,7 @@
 - **Header**: Keep the top header clean. Do not display "Project Node" or versioning indicators in the center of the main chat header.
 
 ## 4. Technical Alignment
-- **Ports**: Backend on `8000`, Frontend on `5173`.
+- **Ports**: Backend on `8000`, Frontend on `3000`.
 - **IP Binding**: Use `127.0.0.1` for frontend-to-backend communication to avoid Windows-specific DNS resolution issues with `localhost`.
 - **Backend Binding**: Use `0.0.0.0` for the backend server to ensure maximum accessibility across the local network.
 

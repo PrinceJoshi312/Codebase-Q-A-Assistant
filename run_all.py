@@ -12,8 +12,8 @@ def start_backend():
                             text=True)
 
 def start_frontend():
-    print("[*] Launching Neural Interface (Port 5173)...")
-    # Vite default port is 5173
+    print("[*] Launching Neural Interface (Port 3000)...")
+    # Vite default port is 3000 as per vite.config.ts
     # Use shell=True on Windows to find npx in PATH
     return subprocess.Popen(["npx", "vite"], 
                             cwd="frontend",
@@ -39,13 +39,13 @@ if __name__ == "__main__":
     print("🚀 CODEBASE Q&A ASSISTANT IS LIVE")
     print("="*50)
     print("🧠 Backend: http://localhost:8000")
-    print("🖥️  Frontend: http://localhost:5173")
+    print("🖥️  Frontend: http://localhost:3000")
     print("="*50)
     print("[!] Keep this terminal open to maintain the link.")
     
     # Auto-launch browser
     time.sleep(2)
-    webbrowser.open("http://localhost:5173")
+    webbrowser.open("http://localhost:3000")
     
     try:
         while True:
