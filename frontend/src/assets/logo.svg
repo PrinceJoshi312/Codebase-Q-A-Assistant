@@ -1,0 +1,43 @@
+<svg width="100%" viewBox="0 0 680 530" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Codebase Q·A Assistant logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A bold split-C lettermark in red and blue with CODEBASE wordmark below</desc>
+
+  <defs>
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff3b3b"/>
+      <stop offset="100%" stop-color="#b81414"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4aa8ff"/>
+      <stop offset="100%" stop-color="#1460c8"/>
+    </linearGradient>
+    <clipPath id="clipLeft">
+      <rect x="0" y="0" width="340" height="520"/>
+    </clipPath>
+    <clipPath id="clipRight">
+      <rect x="340" y="0" width="340" height="520"/>
+    </clipPath>
+  <mask id="imagine-text-gaps-u4for9" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="530" fill="white"/><rect x="105.5667724609375" y="428.5776062011719" width="468.8664855957031" height="77.28907775878906" fill="black" rx="2"/><rect x="224.47854614257812" y="493.9110412597656" width="231.04295349121094" height="19.11115074157715" fill="black" rx="2"/></mask></defs>
+
+  <rect width="680" height="520" fill="#080810" style="fill:rgb(8, 8, 16);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <g clip-path="url(#clipLeft)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path d="M340,70&#10;             A190,190 0 1,0 340,450&#10;             L340,380&#10;             A120,120 0 1,1 340,140&#10;             Z" fill="url(#gRed)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <g clip-path="url(#clipRight)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <path d="M340,70&#10;             A190,190 0 1,0 340,450&#10;             L340,380&#10;             A120,120 0 1,1 340,140&#10;             Z" fill="url(#gBlue)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <rect x="335" y="60" width="10" height="400" fill="#080810" style="fill:rgb(8, 8, 16);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <rect x="320" y="210" width="80" height="100" fill="#080810" style="fill:rgb(8, 8, 16);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <line x1="340" y1="60" x2="340" y2="460" stroke="#080810" stroke-width="3" mask="url(#imagine-text-gaps-u4for9)" style="fill:rgb(0, 0, 0);stroke:rgb(8, 8, 16);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <text x="340" y="488" font-family="'Arial Black', Arial, sans-serif" font-size="52" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="18" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, Arial, sans-serif;font-size:52px;font-weight:900;text-anchor:middle;dominant-baseline:auto">CODEBASE</text>
+
+  <line x1="218" y1="504" x2="278" y2="504" stroke="#4aa8ff" stroke-width="1" opacity="0.7" mask="url(#imagine-text-gaps-u4for9)" style="fill:rgb(0, 0, 0);stroke:rgb(74, 168, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="340" y="508" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#4aa8ff" text-anchor="middle" letter-spacing="8" style="fill:rgb(74, 168, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:13px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Q · A  ASSISTANT</text>
+  <line x1="402" y1="504" x2="462" y2="504" stroke="#4aa8ff" stroke-width="1" opacity="0.7" mask="url(#imagine-text-gaps-u4for9)" style="fill:rgb(0, 0, 0);stroke:rgb(74, 168, 255);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>
