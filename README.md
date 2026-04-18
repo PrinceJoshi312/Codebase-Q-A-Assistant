@@ -1,5 +1,5 @@
 # Codebase Q&A Assistant (BMAD V6 Edition)
-
+![Neural Assistant UI](./assets/neural-ui.png)
 An intelligent, agentic RAG system that allows you to chat with any GitHub repository using **Google Gemini** and **LangChain**.
 
 ---
